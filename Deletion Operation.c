@@ -10,6 +10,7 @@ int main()
     cout<<arr[i]<<" ";
   }
   j=k;
+  
   while(j<n){
     arr[j-1]=arr[j];
     j=j+1;
