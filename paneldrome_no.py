@@ -7,7 +7,11 @@ operation n-1 times where n is the size of the array
 (because a single-element array is always palindromic, 
 similar to single-character string). In that case, 
 the size of array will be reduced to 1. But in this problem, 
-we are asked to do it in the minimum number of operations."""
+we are asked to do it in the minimum number of operations.
+Example:
+Input : arr lj = (15, 4, 15)
+Output : 0
+Array is already a palindrome. So we do not need any merge operation."""
 
 arr = [1,-2,-3,-5,1]
 #to store min. number of operation
